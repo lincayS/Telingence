@@ -3,3 +3,8 @@
     height: 500px;
     
 }
+#border2{
+    border: 5px solid rgb(2, 160, 2);
+    height: 100px;
+    
+}
