@@ -1,85 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
-<body>
-<div class="container col-8 offset-2">
-    <div class="p-2 mt-5 pt-4 " id="border">
 
-        <div class="d-flex justify-content-between">  
-            <h3 class="bg-success d-inline h-50">Vision omnicanale client-Accueil</h3>
+<body>
+    <div class="container col-8 offset-2">
+        <div class="p-2 mt-5 pt-4 " id="border">
+
+            <div class="d-flex justify-content-between">
+                <h3 class="bg-success d-inline h-50">Vision omnicanale client-Accueil</h3>
                 <div class="p-2 mt-2 mb-2 pt-4 w-25" id="border2">
                     <p>Date: </p>
                     <p>Bonjour Mr/Mme: </p>
                 </div>
-        </div>
-        <div class="d-flex mt-3 justify-content-between">
-            <div class="d-flex">
-            <p class="justify-content-end mr-1">Recherche rapide</p>
-            <input class="justify-content-start">
             </div>
-            <button>Export de la recherche (.XLXS/CSV)</button>
+            <div class="d-flex mt-3 justify-content-between">
+                <div class="d-flex">
+                    <p class="justify-content-end mr-1">Recherche rapide</p>
+                    <input class="justify-content-start">
+                </div>
+                <button>Export de la recherche (.XLXS/CSV)</button>
+            </div>
+
+            <div class="d-flex">
+                <div class="d-flex mt-4 flex-column align-items-center col-4">
+                    <h4 class="bg-success rounded text-center p-1">CAMPAGNE MARKETING</h4>
+                    <div class="row">
+                        <button class="btn btn-success" type="button">Liste déroulante</button>
+                        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Première campagne cliquable</a>
+                            <a class="dropdown-item" href="#">Deuxième campagne cliquable</a>
+                            <a class="dropdown-item" href="#">Troisième campagne cliquable</a>
+                            <a class="dropdown-item" href="#">Quatrième campagne cliquable</a>
+                            <a class="dropdown-item" href="#">Cinquième campagne cliquable</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mt-4 flex-column align-items-center col-4">
+                    <h4 class="bg-success rounded text-center p-1">SERVICE CLIENT</h4>
+                    <div class="row">
+
+                        <button class="btn btn-success" type="button">Liste déroulante</button>
+                        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Première demande cliquable</a>
+                            <a class="dropdown-item" href="#">Deuxième demande cliquable</a>
+                            <a class="dropdown-item" href="#">Troisième demande cliquable</a>
+                            <a class="dropdown-item" href="#">Quatrième demande cliquable</a>
+                            <a class="dropdown-item" href="#">Cinquième demande cliquable</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mt-4 flex-column align-items-center col-4">
+                    <h4 class="bg-success rounded text-center p-3">SAV</h4>
+                    <div class="row">
+
+                        <button class="btn btn-success " type="button">Liste déroulante</button>
+                        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Première action cliquable</a>
+                            <a class="dropdown-item" href="#">Deuxième action cliquable</a>
+                            <a class="dropdown-item" href="#">Troisième action cliquable</a>
+                            <a class="dropdown-item" href="#">Quatrième action cliquable</a>
+                            <a class="dropdown-item" href="#">Cinquième action cliquable</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="d-flex mt-4 justify-content-start">
-            <h3 class="bg-success mr-5 rounded">CAMPAGNE MARKETING</h3>
-            <h3 class="bg-success mr-5 rounded">SERVICE CLIENT</h3>
-            <h3 class="bg-success rounded offset-1">SAV</h3>  
-        </div>
-    <div class="d-flex">
-        <div class="d-flex mt-4 justify-content-start">
-            <button class="btn btn-success btn-lg ml-5" type="button">Liste déroulante</button>
-                <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only">Toggle Dropdown</span>
-                </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Première campagne cliquable</a>
-          <a class="dropdown-item" href="#">Deuxième campagne cliquable</a>
-          <a class="dropdown-item" href="#">Troisième campagne cliquable</a>
-          <a class="dropdown-item" href="#">Quatrième campagne cliquable</a>
-          <a class="dropdown-item" href="#">Cinquième campagne cliquable</a>
-        </div>
-        </div>
-        <div class="d-flex mt-4 justify-content-start offset-1">
-            <button class="btn btn-success btn-lg ml-3" type="button">Liste déroulante</button>
-                <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only">Toggle Dropdown</span>
-                </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Première demande cliquable</a>
-          <a class="dropdown-item" href="#">Deuxième demande cliquable</a>
-          <a class="dropdown-item" href="#">Troisième demande cliquable</a>
-          <a class="dropdown-item" href="#">Quatrième demande cliquable</a>
-          <a class="dropdown-item" href="#">Cinquième demande cliquable</a>
-        </div>
-        </div>
-        <div class="d-flex mt-4 justify-content-start">
-            <button class="btn btn-success btn-lg ml-5" type="button">Liste déroulante</button>
-                <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only">Toggle Dropdown</span>
-                </button>
-      <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Première action cliquable</a>
-          <a class="dropdown-item" href="#">Deuxième action cliquable</a>
-          <a class="dropdown-item" href="#">Troisième action cliquable</a>
-          <a class="dropdown-item" href="#">Quatrième action cliquable</a>
-          <a class="dropdown-item" href="#">Cinquième action cliquable</a>
-        </div>
-       </div>
-     </div>
+
+
     </div>
-    
-
-</div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
