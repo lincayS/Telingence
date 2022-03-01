@@ -5,11 +5,16 @@
 }
 #border2{
     border: 5px solid rgb(2, 160, 2);
-    height: 100px;
     
 }
 
 h4{
     width: 150px;
     height: 70px;
+}
+
+#btns{
+
+    margin-top: 20%;
+    background-color: grey;
 }
