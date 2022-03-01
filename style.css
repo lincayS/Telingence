@@ -1,20 +1,27 @@
 #border{
-    border: 10px solid rgb(2, 160, 2);
+    border: 10px solid  #55A630;
     height: 500px;
     
 }
 #border2{
-    border: 5px solid rgb(2, 160, 2);
+    border: 5px solid  #55A630;
     
 }
 
 h4{
     width: 150px;
     height: 70px;
+    background-color: #55A630;
 }
 
 #btns{
 
     margin-top: 20%;
-    background-color: grey;
+    background-color: #55A630;
+}
+h3{
+    background-color: #55A630;  
+}
+#deroulant{
+    background-color: #55A630;
 }
