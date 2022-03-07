@@ -1,0 +1,29 @@
+#page{
+    background-color: #55A630;
+    height: 100%;
+}
+#deroulant{
+    background-color: black;
+}
+#btns{
+
+    margin-bottom:5%;
+    margin-right: 3%;
+}
+#bloc{
+    background-color: black;
+    
+}
+#titre{
+    background-color: black;
+    width:52vh;
+}
+#bouton{
+    background-color: black;
+    color:white;
+    margin-right:3%;
+}
+#border3{
+    border: 5px solid  #ffc107;
+    
+}
