@@ -16,24 +16,25 @@
             <h3 class="text-center pt-3 text-light">ACCUEIL</h3>
         </div>
         <br>
-<div class="row justify-content-around">
+        <h4 class="bg-warning text-reset d-inline ml-2 px-1">Champs obligatoires</h4>
+        <br>
+        <br>
+<div class="row justify-content-around pb-3 mx-1" id="border3">
             <div class="col-4">
         <p class="text-warning font-weight-bold">1er niveau : sélectionner un champ</p>
-                <div class="btn-group ">
-    <button class="btn btn-lg text-light" id="deroulant" type="button">
-      Menu déroulant
-    </button>
-    <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split text-light" id="deroulant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Toggle Dropdown</span>
-    </button>
-    <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Nom client/prospect</a>
-        <a class="dropdown-item" href="#">Identifiant client</a>
-        <a class="dropdown-item" href="#">Adresse postale</a>
-        <a class="dropdown-item" href="#">Tel mobile</a>
-        <a class="dropdown-item" href="#">Adresse mail</a>
-    </div>
-            </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle text-light px-5 py-3" href="#" role="button" id="deroulant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu déroulant
+          </a>
+        
+          <div class="dropdown-menu px-3" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Nom client/Prospect</a>
+            <a class="dropdown-item" href="#">Identifiant client</a>
+            <a class="dropdown-item" href="#">Adresse postale</a>
+            <a class="dropdown-item" href="#">Tel Mobile</a>
+            <a class="dropdown-item" href="#">Adresse mail</a>
+          </div>
+        </div>
         </div>
         <div class="col-4 offset-3">
             <p class="text-warning font-weight-bold">2e niveau : saisie</p>
@@ -41,9 +42,12 @@
             <input class="bg-secondary w-100">
         </div>
 </div>
-    <div class="row mt-5 mr-2 ml-3">
+<br>
+        <h4 class="bg-warning text-reset d-inline ml-2 px-1">Champs optionnels</h4>
+        <br>
+    <div class="row mt-3 mr-1 ml-1 pt-2 px-1" id="border3">
         <div class="col-4">
-            <h4 class="rounded text-center p-1 text-light" id="deroulant">Case à cocher</h4>
+            <h4 class="rounded text-center p-1 text-light" id="deroulant">Filtres de recherche (optionnels)</h4>
             
             <div class="form-check pt-3">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -102,11 +106,9 @@
               <p class="text-warning font-weight-bold">4e niveau : saisie</p>
     </div>
     </div>
-<br>
-<br>
-<br>
 
-<button type="submit" class="btn btn-light float-right px-4" id="btns">Rechercher</button>
+
+<button type="submit" class="btn btn-light float-right px-4 mt-2" id="btns">Rechercher</button>
     
 </div>
 

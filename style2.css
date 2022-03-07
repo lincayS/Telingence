@@ -23,3 +23,10 @@
     color:white;
     margin-right:3%;
 }
+#border3{
+    border: 5px solid  #ffc107;
+    
+}
+body{
+    overflow-y: hidden;
+}
