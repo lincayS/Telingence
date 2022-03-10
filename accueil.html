@@ -5,38 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
-<div class="container col-8 offset-2">
-    <div class="p-2 mt-5 pt-4 " id="border">
-        <div class=" mt-2 mb-2 pl-1 " id="border2">
-            <p>Date: </p>
-            <p>Bonjour Mr/Mme , merci de vous connecter à l'application TellIngence</p>
-        </div>
-        <div class=" bg-success w-100">
-            <h3 class="text-center">Vision omnicanale client-Accueil</h3>
+<div class="container-fluid" id="page">
+    
+        <div class="d-flex justify-content-end">
+            <h3 class=" pt-3 mr-5 pr-5 text-light">ACCUEIL</h3>
+            <h6 class="bg-light rounded text-reset d-inline ml-2 px-1 mt-3">Bonjour [Prénom] [Nom]. Nous sommes le [date]. Bienvenue sur votre page d'accueil</h6>
         </div>
         <br>
-<div class="btn-group mt-3">
-    <button class="btn btn-lg" id="deroulant" type="button">
-      Liste déroulante
-    </button>
-    <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" id="deroulant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Toggle Dropdown</span>
-    </button>
-    <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Recherche d'un client/prospect par son numéro de mobile</a>
-        <a class="dropdown-item" href="#">Recherche d'un cient par son identifiant client</a>
-    </div>
+        <h4 class="bg-warning rounded text-reset d-inline ml-2 px-1">Recherche libre</h4>
+        <br>
+        <br>
+<div class="row justify-content-around pb-3 mx-1" id="border3">
+            <div class="col-4">
+        <p class="text-warning font-weight-bold">1er niveau : sélectionner un champ</p>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle text-light px-5 py-3" href="#" role="button" id="deroulant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu déroulant
+          </a>
+        
+          <div class="dropdown-menu px-3" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Nom client/Prospect</a>
+            <a class="dropdown-item" href="#">Identifiant client</a>
+            <a class="dropdown-item" href="#">Adresse postale</a>
+            <a class="dropdown-item" href="#">Tel Mobile</a>
+            <a class="dropdown-item" href="#">Adresse mail</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-4 offset-3">
+            <p class="text-warning font-weight-bold">2e niveau : saisie</p>
+            <h4 class="rounded text-center p-1 text-light" id="deroulant">Zone de saisie</h4>
+            <input class="bg-secondary w-100">
+        </div>
 </div>
 <br>
-<button type="submit" class="btn btn-success float-right mt-5" id="btns">Valider</button>
+        <h4 class="bg-warning rounded text-reset d-inline ml-2 px-1">Recherche prédéfinie</h4>
+        <br>
+    <div class="row mt-3 mr-1 ml-1 pt-2 px-1" id="border3">
+        <div class="col-4">
+            <h4 class="rounded text-center p-1 text-light" id="deroulant">Filtres de recherche (optionnels)</h4>
+            
+            <div class="form-check pt-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="rounded text-center p-1 text-light" id="deroulant">CAMPAGNE MARKETING</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="rounded text-center p-1 text-light" id="deroulant">SERVICE CLIENT</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="rounded text-center p-1 text-light" id="deroulant">SERVICE APRES VENTE</h4>
+                </label>
+              </div>
+              <p class="text-warning font-weight-bold">3e niveau : saisie</p>
+              
+        
+        </div>
+        <div class="col-4">
+            <h4 class="rounded text-center p-1 text-light" id="deroulant">Type de Canal</h4>
+            <div class="form-check pt-3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="text-center p-1 text-reset">Téléphone</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="text-center p-1 text-reset">Mail</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="text-center p-1 text-reset">SMS</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="text-center p-1 text-reset">Chat</h4>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    <h4 class="text-center p-1 text-reset">Réseaux sociaux</h4>
+                </label>
+              </div>
+              <p class="text-warning font-weight-bold">4e niveau : saisie</p>
+    </div>
     </div>
 
 
+<button type="submit" class="btn btn-light float-right px-4 mt-2" id="btns">Rechercher</button>
+<button type="submit" class="btn btn-light float-right px-4 mt-2" id="btns">Remise à zéro du formulaire</button>   
 </div>
+
+
 
 
 

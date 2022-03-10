@@ -10,6 +10,11 @@
     margin-bottom:5%;
     margin-right: 3%;
 }
+#btns2{
+    background-color: black;
+    margin-bottom:5%;
+    margin-right: 3%;
+}
 #bloc{
     background-color: black;
     
@@ -29,4 +34,8 @@
 }
 body{
     overflow-y: hidden;
+}
+#vert{
+    border: 8px solid rgb(29, 138, 29);
+    
 }
